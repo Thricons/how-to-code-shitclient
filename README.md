@@ -282,3 +282,16 @@ case 2:xxx2();break;
 case ...:...;
 ```
 
+### 💩 静态变量也要用this
+
+_Good 👍_
+
+```java
+this.getMinecraft();
+```
+
+_Bad 👎_
+
+```java
+getMinecraft();
+```
